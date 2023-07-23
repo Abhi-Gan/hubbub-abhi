@@ -64,12 +64,45 @@ import com.example.app.databinding.ActivityMainBinding
 import kotlinx.coroutines.launch
 import android.webkit.WebView
 
+// location display?
+import com.google.android.material.button.MaterialButton
+import com.arcgismaps.location.NmeaGnssSystem
+import com.arcgismaps.location.NmeaLocationDataSource
+import com.arcgismaps.geometry.SpatialReference
+import android.Manifest.permission.ACCESS_COARSE_LOCATION
+import android.Manifest.permission.ACCESS_FINE_LOCATION
+import androidx.core.content.ContextCompat
+import android.content.pm.PackageManager
+import androidx.core.app.ActivityCompat
+import com.google.android.material.snackbar.Snackbar
 
+
+import android.speech.tts.TextToSpeech
+import android.text.format.DateUtils
+import android.widget.TextView
+import androidx.lifecycle.lifecycleScope
+import com.arcgismaps.geometry.Polyline
+import com.arcgismaps.location.LocationDisplayAutoPanMode
+import com.arcgismaps.location.RouteTrackerLocationDataSource
+import com.arcgismaps.location.SimulatedLocationDataSource
+import com.arcgismaps.location.SimulationParameters
+import com.arcgismaps.mapping.BasemapStyle
+import com.arcgismaps.navigation.DestinationStatus
+import com.arcgismaps.navigation.RouteTracker
+import com.arcgismaps.navigation.TrackingStatus
+import kotlinx.coroutines.cancelAndJoin
+import kotlinx.coroutines.flow.filter
+import kotlinx.coroutines.launch
+import java.time.Instant
+import java.util.concurrent.atomic.AtomicBoolean
 
 class MainActivity : AppCompatActivity() {
 
-    private val activityMainBinding: ActivityMainBinding by lazy { DataBindingUtil.setContentView(this, R.layout.activity_main) }
+    private val activityMainBinding: ActivityMainBinding by lazy {
+        DataBindingUtil.setContentView(this, R.layout.activity_main)
+    }
     private val mapView: MapView by lazy { activityMainBinding.mapView }
+
 
 //    private val mapView: MapView by lazy { activityMainBinding.mapView }
 //    private val barrierList: MutableList<> by lazy { mutableListOf() }
@@ -77,6 +110,7 @@ class MainActivity : AppCompatActivity() {
 //    private val listView: ListView by lazy {
 //        activityMainBinding.listView
 //    }
+
 
 //    private val barriersList by lazy { mutableListOf<PolygonBarrier>() }
 
@@ -145,12 +179,6 @@ class MainActivity : AppCompatActivity() {
             val googleFormUrl = "https://arcg.is/1Ke8ni0"
             webView.loadUrl(googleFormUrl)
         }
-
-
-
-
-
-
     }
 
     private fun addStop(stop: Stop) {
@@ -260,6 +288,12 @@ class MainActivity : AppCompatActivity() {
                 }
 //                arrayAdapter.notifyDataSetChanged()
 
+                // set the map view view point to show the whole route
+                if (shape?.extent != null) {
+                    mapView.setViewpoint(Viewpoint(shape.extent))
+                } else {
+                    return@launch showError("Route geometry extent is null.")
+                }
             }
 
         }
@@ -349,6 +383,7 @@ class MainActivity : AppCompatActivity() {
                         }
                     }
                 }
+
             }
 
         }

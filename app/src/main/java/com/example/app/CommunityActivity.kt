@@ -3,16 +3,14 @@ package com.example.app
 
 
 import android.os.Bundle
-import android.view.Gravity
-import android.view.LayoutInflater
+import android.util.Log
 import android.view.View
 import android.widget.Button
-import android.widget.LinearLayout
-import android.widget.PopupWindow
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-
+import okhttp3.*
+import java.io.IOException
 
 class CommunityActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,6 +27,7 @@ class CommunityActivity : AppCompatActivity() {
 //
         postRecyclerView.layoutManager = (LinearLayoutManager(this));
         postRecyclerView.adapter = postAdapter
+
     }
 
 
@@ -43,7 +42,32 @@ class CommunityActivity : AppCompatActivity() {
         dummyProfiles.add(Post("Finding a job", "https://www.reddit.com/r/wheelchairs/comments/156yi0c/finding_a_job/"))
 
         // Add more profiles as needed
-
+        // follow https://www.techiedelight.com/send-http-get-post-requests-kotlin/
+        // or https://square.github.io/okhttp/
+//        Log.d("fetch","a")
+//        // val responseVal = run("http://127.0.0.1:5000/top_reddit_posts?n=5")
+//        Log.d("fetch","b")
+        // print(responseVal!!.string())
         return dummyProfiles
+    }
+
+
+    private val client = OkHttpClient()
+
+    private fun run(url_str: String): ResponseBody? {
+        val request = Request.Builder()
+            .url(url_str)
+            .build()
+
+        client.newCall(request).execute().use { response ->
+            if (!response.isSuccessful) throw IOException("Unexpected code $response")
+
+//            for ((name, value) in response.headers) {
+//                println("$name: $value")
+//            }
+
+            return response.body
+            // println(response.body!!.string())
+        }
     }
 }

@@ -2,6 +2,9 @@ package com.example.app
 
 
 import android.content.Context
+import android.content.Intent
+import android.net.Uri
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,6 +13,8 @@ import android.widget.Button
 import android.widget.PopupWindow
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+
 import androidx.recyclerview.widget.RecyclerView
 
 
@@ -30,7 +35,11 @@ class PostAdapter(private val posts: List<Post>,private val context: Context) : 
             // Handle the item click event here
             // You can perform an action based on the clicked profile, e.g., open a new activity, show a toast, etc.
             Toast.makeText(holder.itemView.context, "Clicked: ${profile.submission}", Toast.LENGTH_SHORT).show()
-            showPopup(profile.url)
+            // prev - showPopup(profile.url)
+            // TODO: want to redirect to reddit
+            val openURL = Intent(Intent.ACTION_VIEW)
+            openURL.data = Uri.parse(profile.url)
+            holder.itemView.getContext().startActivity(openURL);
         }
 
     }
