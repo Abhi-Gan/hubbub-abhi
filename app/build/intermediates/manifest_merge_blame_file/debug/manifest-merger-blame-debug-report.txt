@@ -1,135 +1,147 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.example.app"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
-6
-7    <uses-sdk
-8        android:minSdkVersion="26"
-8-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="33" />
+4    android:targetSandboxVersion="1"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
 9-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml
-10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:5:5-67
-11-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:5:22-64
-12
-13    <uses-feature
-13-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:6:5-8:35
-14        android:glEsVersion="0x00020000"
-14-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:7:9-41
-15        android:required="true" />
-15-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:8:9-32
-16
-17    <permission
-17-->[androidx.core:core:1.9.0] /Users/abhi/.gradle/caches/transforms-3/a15d456b22e163757ff64b3eb4be8296/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-18        android:name="com.example.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-18-->[androidx.core:core:1.9.0] /Users/abhi/.gradle/caches/transforms-3/a15d456b22e163757ff64b3eb4be8296/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-19        android:protectionLevel="signature" />
-19-->[androidx.core:core:1.9.0] /Users/abhi/.gradle/caches/transforms-3/a15d456b22e163757ff64b3eb4be8296/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
-20
-21    <uses-permission android:name="com.example.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-21-->[androidx.core:core:1.9.0] /Users/abhi/.gradle/caches/transforms-3/a15d456b22e163757ff64b3eb4be8296/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-21-->[androidx.core:core:1.9.0] /Users/abhi/.gradle/caches/transforms-3/a15d456b22e163757ff64b3eb4be8296/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
-22
-23    <application
-23-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:10:5-60:19
-24        android:allowBackup="true"
-24-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:11:9-35
-25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-25-->[androidx.core:core:1.9.0] /Users/abhi/.gradle/caches/transforms-3/a15d456b22e163757ff64b3eb4be8296/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-26        android:dataExtractionRules="@xml/data_extraction_rules"
-26-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:12:9-65
-27        android:debuggable="true"
-28        android:extractNativeLibs="false"
-29        android:fullBackupContent="@xml/backup_rules"
-29-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:13:9-54
-30        android:icon="@mipmap/ic_launcher"
-30-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:14:9-43
-31        android:label="@string/app_name"
-31-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:15:9-41
-32        android:roundIcon="@mipmap/ic_launcher_round"
-32-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:16:9-54
-33        android:supportsRtl="true"
-33-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:17:9-35
-34        android:testOnly="true"
-35        android:theme="@style/Theme.DisplayAMap" >
-35-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:18:9-49
-36        <activity
-36-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:22:9-29:20
-37            android:name="com.example.app.LoadingActivity"
-37-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:23:13-44
-38            android:exported="true" >
-38-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:24:13-36
-39            <intent-filter>
-39-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:25:13-28:29
-40                <action android:name="android.intent.action.MAIN" />
-40-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:26:17-69
-40-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:26:25-66
-41
-42                <category android:name="android.intent.category.LAUNCHER" />
-42-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:27:17-77
-42-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:27:27-74
-43            </intent-filter>
-44        </activity>
-45        <activity
-45-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:31:9-40:20
-46            android:name="com.example.app.MainActivity"
-46-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:32:13-41
-47            android:exported="true" >
-47-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:33:13-36
-48
-49            <!-- <intent-filter> -->
-50            <!-- <action android:name="android.intent.action.MAIN" /> -->
-51
+10        android:targetSdkVersion="33" />
+10-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:9:5-67
+12-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:9:22-64
+13
+14    <!-- android:networkSecurityConfig="@xml/network_security_config" -->
+15
+16    <uses-feature
+16-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:15:5-17:35
+17        android:glEsVersion="0x00020000"
+17-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:16:9-41
+18        android:required="true" />
+18-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:17:9-32
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] /Users/abhi/.gradle/caches/transforms-3/a15d456b22e163757ff64b3eb4be8296/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] /Users/abhi/.gradle/caches/transforms-3/a15d456b22e163757ff64b3eb4be8296/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] /Users/abhi/.gradle/caches/transforms-3/a15d456b22e163757ff64b3eb4be8296/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] /Users/abhi/.gradle/caches/transforms-3/a15d456b22e163757ff64b3eb4be8296/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] /Users/abhi/.gradle/caches/transforms-3/a15d456b22e163757ff64b3eb4be8296/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:19:5-76:19
+27        android:allowBackup="true"
+27-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:20:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.9.0] /Users/abhi/.gradle/caches/transforms-3/a15d456b22e163757ff64b3eb4be8296/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:21:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:23:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:24:9-43
+34        android:label="@string/app_name"
+34-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:25:9-41
+35        android:networkSecurityConfig="@xml/network_security_config"
+35-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:22:9-69
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:26:9-54
+37        android:supportsRtl="true"
+37-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:27:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.DisplayAMap" >
+39-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:28:9-49
+40        <activity
+40-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:32:9-39:20
+41            android:name="com.example.app.LoadingActivity"
+41-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:33:13-44
+42            android:exported="true" >
+42-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:34:13-36
+43            <intent-filter>
+43-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:35:13-38:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:36:17-69
+44-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:36:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:37:17-77
+46-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:37:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:41:9-50:20
+50            android:name="com.example.app.MainActivity"
+50-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:42:13-41
+51            android:exported="true" >
+51-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:43:13-36
 52
-53            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-54            <!-- </intent-filter> -->
+53            <!-- <intent-filter> -->
+54            <!-- <action android:name="android.intent.action.MAIN" /> -->
 55
-56        </activity>
-57        <activity
-57-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:42:9-46:20
-58            android:name="com.example.app.CommunityActivity"
-58-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:43:13-46
-59            android:exported="true" >
-59-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:44:13-36
+56
+57            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+58            <!-- </intent-filter> -->
+59
 60        </activity>
 61        <activity
-61-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:48:9-52:20
-62            android:name="com.example.app.ModeActivity"
-62-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:49:13-41
+61-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:52:9-56:20
+62            android:name="com.example.app.CommunityActivity"
+62-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:53:13-46
 63            android:exported="true" >
-63-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:50:13-36
+63-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:54:13-36
 64        </activity>
 65        <activity
-65-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:54:9-58:20
-66            android:name="com.example.app.ProfileActivity"
-66-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:55:13-44
+65-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:58:9-62:20
+66            android:name="com.example.app.ChatActivity"
+66-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:59:13-41
 67            android:exported="true" >
-67-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:56:13-36
+67-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:60:13-36
 68        </activity>
-69
-70        <provider
-70-->[androidx.emoji2:emoji2:1.2.0] /Users/abhi/.gradle/caches/transforms-3/a25edb1534e8546d1d6b0ec25b99b758/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-71            android:name="androidx.startup.InitializationProvider"
-71-->[androidx.emoji2:emoji2:1.2.0] /Users/abhi/.gradle/caches/transforms-3/a25edb1534e8546d1d6b0ec25b99b758/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-72            android:authorities="com.example.app.androidx-startup"
-72-->[androidx.emoji2:emoji2:1.2.0] /Users/abhi/.gradle/caches/transforms-3/a25edb1534e8546d1d6b0ec25b99b758/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-73            android:exported="false" >
-73-->[androidx.emoji2:emoji2:1.2.0] /Users/abhi/.gradle/caches/transforms-3/a25edb1534e8546d1d6b0ec25b99b758/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-74            <meta-data
-74-->[androidx.emoji2:emoji2:1.2.0] /Users/abhi/.gradle/caches/transforms-3/a25edb1534e8546d1d6b0ec25b99b758/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-75-->[androidx.emoji2:emoji2:1.2.0] /Users/abhi/.gradle/caches/transforms-3/a25edb1534e8546d1d6b0ec25b99b758/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-76                android:value="androidx.startup" />
-76-->[androidx.emoji2:emoji2:1.2.0] /Users/abhi/.gradle/caches/transforms-3/a25edb1534e8546d1d6b0ec25b99b758/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-77            <meta-data
-77-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/abhi/.gradle/caches/transforms-3/9f2789223e82ed81b10547acc029aecc/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-78-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/abhi/.gradle/caches/transforms-3/9f2789223e82ed81b10547acc029aecc/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-79                android:value="androidx.startup" />
-79-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/abhi/.gradle/caches/transforms-3/9f2789223e82ed81b10547acc029aecc/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-80        </provider>
-81    </application>
-82
-83</manifest>
+69        <activity
+69-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:64:9-68:20
+70            android:name="com.example.app.ModeActivity"
+70-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:65:13-41
+71            android:exported="true" >
+71-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:66:13-36
+72        </activity>
+73        <activity
+73-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:70:9-74:20
+74            android:name="com.example.app.ProfileActivity"
+74-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:71:13-44
+75            android:exported="true" >
+75-->/Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:72:13-36
+76        </activity>
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.2.0] /Users/abhi/.gradle/caches/transforms-3/a25edb1534e8546d1d6b0ec25b99b758/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.2.0] /Users/abhi/.gradle/caches/transforms-3/a25edb1534e8546d1d6b0ec25b99b758/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+80            android:authorities="com.example.app.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.2.0] /Users/abhi/.gradle/caches/transforms-3/a25edb1534e8546d1d6b0ec25b99b758/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.2.0] /Users/abhi/.gradle/caches/transforms-3/a25edb1534e8546d1d6b0ec25b99b758/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.2.0] /Users/abhi/.gradle/caches/transforms-3/a25edb1534e8546d1d6b0ec25b99b758/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.2.0] /Users/abhi/.gradle/caches/transforms-3/a25edb1534e8546d1d6b0ec25b99b758/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.2.0] /Users/abhi/.gradle/caches/transforms-3/a25edb1534e8546d1d6b0ec25b99b758/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/abhi/.gradle/caches/transforms-3/9f2789223e82ed81b10547acc029aecc/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/abhi/.gradle/caches/transforms-3/9f2789223e82ed81b10547acc029aecc/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/abhi/.gradle/caches/transforms-3/9f2789223e82ed81b10547acc029aecc/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+88        </provider>
+89    </application>
+90
+91</manifest>

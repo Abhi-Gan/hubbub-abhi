@@ -72,12 +72,12 @@
         "source": "/Users/abhi/.gradle/daemon/7.4.2/com.example.app-main-37:/layout/popup_window.xml"
     },
     {
-        "merged": "/Users/abhi/.gradle/daemon/7.4.2/com.example.app-merged_res-35:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/abhi/.gradle/daemon/7.4.2/com.example.app-main-37:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "com.example.app-merged_res-35:/xml_network_security_config.xml.flat",
+        "source": "com.example.app-main-37:/xml/network_security_config.xml"
     },
     {
-        "merged": "com.example.app-merged_res-35:/layout_post_item.xml.flat",
-        "source": "com.example.app-main-37:/layout/post_item.xml"
+        "merged": "/Users/abhi/.gradle/daemon/7.4.2/com.example.app-merged_res-35:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/abhi/.gradle/daemon/7.4.2/com.example.app-main-37:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "/Users/abhi/.gradle/daemon/7.4.2/com.example.app-merged_res-35:/layout_post_item.xml.flat",
@@ -86,6 +86,10 @@
     {
         "merged": "/Users/abhi/.gradle/daemon/7.4.2/com.example.app-merged_res-35:/xml_backup_rules.xml.flat",
         "source": "/Users/abhi/.gradle/daemon/7.4.2/com.example.app-main-37:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/abhi/.gradle/daemon/7.4.2/com.example.app-merged_res-35:/layout_activity_chat.xml.flat",
+        "source": "/Users/abhi/.gradle/daemon/7.4.2/com.example.app-main-37:/layout/activity_chat.xml"
     },
     {
         "merged": "/Users/abhi/.gradle/daemon/7.4.2/com.example.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.webp.flat",

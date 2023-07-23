@@ -16,9 +16,11 @@ drawable talk_to_kirbie
 id ButtonCommunity
 id ButtonProfile
 id ButtonSurvey
+id FetchTextView
 id PopupTextDisplay
 id back
 id backButton
+id backButtonChat
 id button
 id closePopup
 id guideline
@@ -39,9 +41,9 @@ id profileNameTextView
 id profilesRecyclerView
 id progressBar
 id searchView
-id textView
 id videoView2
 id webView
+layout activity_chat
 layout activity_loading
 layout activity_main
 layout activity_mode
@@ -60,3 +62,4 @@ string search_hint
 style Theme.DisplayAMap
 xml backup_rules
 xml data_extraction_rules
+xml network_security_config

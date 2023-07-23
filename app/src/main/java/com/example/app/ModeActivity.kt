@@ -22,7 +22,7 @@ class ModeActivity : AppCompatActivity() {
         }
 
         btnTalk.setOnClickListener {
-            val intent = Intent(this, CommunityActivity::class.java)
+            val intent = Intent(this, ChatActivity::class.java)
             startActivity(intent)
         }
 

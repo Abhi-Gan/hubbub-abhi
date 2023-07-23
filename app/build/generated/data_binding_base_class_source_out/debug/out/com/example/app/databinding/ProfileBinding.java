@@ -22,20 +22,20 @@ public final class ProfileBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView FetchTextView;
+
+  @NonNull
   public final Button profileBackButton;
 
   @NonNull
   public final RecyclerView profilesRecyclerView;
 
-  @NonNull
-  public final TextView textView;
-
-  private ProfileBinding(@NonNull ConstraintLayout rootView, @NonNull Button profileBackButton,
-      @NonNull RecyclerView profilesRecyclerView, @NonNull TextView textView) {
+  private ProfileBinding(@NonNull ConstraintLayout rootView, @NonNull TextView FetchTextView,
+      @NonNull Button profileBackButton, @NonNull RecyclerView profilesRecyclerView) {
     this.rootView = rootView;
+    this.FetchTextView = FetchTextView;
     this.profileBackButton = profileBackButton;
     this.profilesRecyclerView = profilesRecyclerView;
-    this.textView = textView;
   }
 
   @Override
@@ -65,6 +65,12 @@ public final class ProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.FetchTextView;
+      TextView FetchTextView = ViewBindings.findChildViewById(rootView, id);
+      if (FetchTextView == null) {
+        break missingId;
+      }
+
       id = R.id.profileBackButton;
       Button profileBackButton = ViewBindings.findChildViewById(rootView, id);
       if (profileBackButton == null) {
@@ -77,14 +83,8 @@ public final class ProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
-        break missingId;
-      }
-
-      return new ProfileBinding((ConstraintLayout) rootView, profileBackButton,
-          profilesRecyclerView, textView);
+      return new ProfileBinding((ConstraintLayout) rootView, FetchTextView, profileBackButton,
+          profilesRecyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

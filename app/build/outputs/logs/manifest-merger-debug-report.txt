@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:2:1-62:12
+ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:3:1-78:12
+INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:3:1-78:12
+INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:3:1-78:12
+INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:3:1-78:12
 MERGED from [androidx.databinding:databinding-adapters:7.3.1] /Users/abhi/.gradle/caches/transforms-3/240d8609453bc18233b1307bf0493fbe/transformed/databinding-adapters-7.3.1/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:databinding-ktx:7.3.1] /Users/abhi/.gradle/caches/transforms-3/a9aff0b1241c60c75beff1fc7c2ae866/transformed/databinding-ktx-7.3.1/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:databinding-runtime:7.3.1] /Users/abhi/.gradle/caches/transforms-3/47e7f801c79013c0a3828f1f16239e9d/transformed/databinding-runtime-7.3.1/AndroidManifest.xml:2:1-9:12
@@ -52,37 +52,39 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/abhi/.gradle/cache
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/abhi/.gradle/caches/transforms-3/14afe02e8a0180e800813efbfbbd3f19/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/abhi/.gradle/caches/transforms-3/7d1b66679dc2f23bfc8ca59580b7e758/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/abhi/.gradle/caches/transforms-3/a0a7bb48e0d3e4a516b41864cf992904/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:3:1-78:12
+INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:3:1-78:12
+INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:3:1-78:12
 	package
 		INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:2:1-62:12
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:3:1-78:12
 		INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:2:1-62:12
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:3:1-78:12
 		INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:4:5-51
 	android:versionCode
 		INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:2:1-62:12
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:3:1-78:12
 		INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:3:11-69
+	android:targetSandboxVersion
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:7:5-37
 uses-permission#android.permission.INTERNET
-ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:9:5-67
 	android:name
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:9:22-64
 uses-feature#0x00020000
-ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:6:5-8:35
+ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:15:5-17:35
 	android:glEsVersion
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:7:9-41
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:16:9-41
 	android:required
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:8:9-32
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:17:9-32
 application
-ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:10:5-60:19
+ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:19:5-76:19
 MERGED from [com.google.android.material:material:1.7.0] /Users/abhi/.gradle/caches/transforms-3/59c391989f5de8f7454b73bf13889396/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] /Users/abhi/.gradle/caches/transforms-3/59c391989f5de8f7454b73bf13889396/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/abhi/.gradle/caches/transforms-3/1cab63e3aacf09e50b6891c5f503ea39/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -100,63 +102,71 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/abhi
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/abhi/.gradle/caches/transforms-3/a15d456b22e163757ff64b3eb4be8296/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:17:9-35
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:27:9-35
 	android:label
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:25:9-41
 	android:fullBackupContent
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:23:9-54
 	android:roundIcon
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:16:9-54
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:26:9-54
 	tools:targetApi
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:19:9-29
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:29:9-29
 	android:icon
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:14:9-43
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:24:9-43
 	android:allowBackup
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:20:9-35
 	android:theme
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:18:9-49
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:28:9-49
+	android:networkSecurityConfig
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:22:9-69
 	android:dataExtractionRules
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:12:9-65
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:21:9-65
 activity#com.example.app.LoadingActivity
-ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:22:9-29:20
+ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:32:9-39:20
 	android:exported
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:24:13-36
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:23:13-44
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:33:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:25:13-28:29
+ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:35:13-38:29
 action#android.intent.action.MAIN
-ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:26:17-69
+ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:26:25-66
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:27:17-77
+ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:27:27-74
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:37:27-74
 activity#com.example.app.MainActivity
-ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:31:9-40:20
+ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:41:9-50:20
 	android:exported
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:33:13-36
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:32:13-41
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:42:13-41
 activity#com.example.app.CommunityActivity
-ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:42:9-46:20
+ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:52:9-56:20
 	android:exported
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:44:13-36
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:54:13-36
 	android:name
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:43:13-46
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:53:13-46
+activity#com.example.app.ChatActivity
+ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:58:9-62:20
+	android:exported
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:60:13-36
+	android:name
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:59:13-41
 activity#com.example.app.ModeActivity
-ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:48:9-52:20
+ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:64:9-68:20
 	android:exported
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:50:13-36
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:66:13-36
 	android:name
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:49:13-41
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:65:13-41
 activity#com.example.app.ProfileActivity
-ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:54:9-58:20
+ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:70:9-74:20
 	android:exported
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:56:13-36
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:72:13-36
 	android:name
-		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:55:13-44
+		ADDED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml:71:13-44
 uses-sdk
 INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/abhi/Desktop/Esri_Hackathon/hubbub/app/src/main/AndroidManifest.xml
